@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Uncommon HTML Error</title>
+</head>
+<body>
+  <div id="myDiv">
+    This is some text.
+  </div>
+  <script>
+    // Incorrect way to get an element.  The correct way is getElementsByName
+    let element = document.getElementByIdx('myDiv'); //Typo in function name
+    element.innerHTML = "<b>Modified text</b>";
+  </script>
+</body>
+</html>
