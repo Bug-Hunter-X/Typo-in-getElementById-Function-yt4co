@@ -1,0 +1,3 @@
+This repository demonstrates a common yet easily overlooked error in JavaScript within HTML: a typo in the `getElementById` function. The incorrect code attempts to use `getElementByIdx` which will lead to the script failing silently, which can be difficult to debug.
+
+The solution showcases the correct usage of the `getElementById` function to modify the innerHTML of the div element.  This is a good example of how seemingly small errors can create problems. It is always a good idea to double check the spelling of common functions like getElementById, and to use linters or compilers to ensure all of your syntax is correct before deploying any code.
